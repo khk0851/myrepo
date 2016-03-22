@@ -1,0 +1,18 @@
+%%plantuml
+@startuml
+interface Comparator {
+    +compare(Object o1, Object o2):int
+}
+
+class Sorter {
+    +sort(Object[], Comparator):void
+}
+class DataComparator{}
+class ReverseComparater{}
+Comparator <|.. IntegerComparater
+Comparator <.. Sorter
+Comparator<..DataComparator
+Comparator<..ReverseComparater
+SorterMain .up.> Comparator
+SorterMain .up.> Sorter
+@enduml
