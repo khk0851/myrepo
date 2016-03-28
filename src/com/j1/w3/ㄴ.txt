@@ -1,0 +1,8 @@
+superclass 
+-interface class 
+class/abstract class
+lsp 컴페러트에 상속받는 모든것 인티저 인터페이스 상속. 위에것을 대처 
+이미 사용된 함수를 무시할 수 없다. 아버지가 가진거 다 받아야ㅑ해,
+연관쓸때 상속 x슈퍼클래스 의존
+추상클래스
+구체적 하위 
