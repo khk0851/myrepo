@@ -1,12 +1,13 @@
 package com.j1.wk4;
 
 import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import ch.aplu.turtle.*;
 
 
 
 class TurtleKeyListener extends Turtle{
   public TurtleKeyListener(){
-    KeyAdapter tka = new KeyAdapter():
       addKeyListener(new KeyAdapter(){
       public void keyPressed(KeyEvent e){
          int keyCode=e.getKeyCode();
@@ -20,7 +21,7 @@ class TurtleKeyListener extends Turtle{
              back(20);
              break;
            case KeyEvent.VK_Q:
-             setStatusText("q pressed and exiting")
+             setStatusText("q pressed and exiting");
          }
       }
     });

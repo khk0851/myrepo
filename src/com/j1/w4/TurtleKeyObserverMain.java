@@ -20,8 +20,33 @@ class TurtleKeyListener extends Turtle{
              setStatusText("back 20");
              back(20);
              break;
+           case KeyEvent.VK_LEFT:
+             setStatusText("turn left");
+             left(90);
+             break;
+           case KeyEvent.VK_RIGHT :
+             setStatusText("turn right");
+             right(90);
+             break;
+           case KeyEvent.VK_W:
+             setStatusText("forward 20");
+             forward(20);
+             break;
+           case KeyEvent.VK_S:
+             setStatusText("back 20");
+             back(20);
+             break;
+           case KeyEvent.VK_A:
+             setStatusText("turn left");
+             left(90);
+             break;
+           case KeyEvent.VK_D :
+             setStatusText("turn right");
+             right(90);
+             break;
            case KeyEvent.VK_Q:
              setStatusText("q pressed and exiting");
+             break;
          }
       }
     });
