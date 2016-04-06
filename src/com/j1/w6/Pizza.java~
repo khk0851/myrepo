@@ -1,4 +1,4 @@
-package com.j1.w6
+package com.j1.w6;
   
   abstract public class Pizza{
   String name;
