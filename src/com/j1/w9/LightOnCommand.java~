@@ -1,0 +1,9 @@
+package com.j1.w9;
+public class LightOnCommand {
+  public void LightOnCommand(Light){
+    
+  }
+  public void execute(){
+  Light.on();
+  }
+}
