@@ -1,0 +1,27 @@
+package com.j1.w9.command.undo;
+
+public class RemoteControlWithUndo{
+  Command[] onCommands;
+  Command[] offCommands;
+  Command undoCommand;
+  public RemoteControlWithUndo(){
+  onCommands=new Command[7];
+  offCommands=new Command[7];
+  for (int i=0; i<7; i++){
+    onCommands[i]=Null;
+    offCommands[i]=Null;
+   }
+   undoCommand=noCommand;
+  }
+  public void setCommand(int slot,Command onCommand, Command offCommand){
+  onCommands[slot]=onCommand;
+  offCommands[slot]=offCommand;
+  }
+  public void onBottunWasPushed(int slot){
+  offCommands[slot].execute();
+  undoCommand=onCommands[slot];
+  }
+  public void  undoButtonWasPushed{
+    undoCommand.undo();
+  }
+}

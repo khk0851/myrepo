@@ -1,0 +1,15 @@
+package com.j1.w10.adapter;
+
+  
+public class IteratorEnumeration implements Enumeration {
+  Iterator iterator;
+  public IteratorEnumeration (iterator){
+   this.iterator=iterator;
+  }
+  public boolean hasMoreElements(){
+    iterator.hasNext();
+  }
+  public Object nextElement(){
+    iterator.next();
+  }
+}
