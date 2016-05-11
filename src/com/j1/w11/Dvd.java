@@ -1,0 +1,18 @@
+package com.j1.w11;
+public class Dvd{
+  public void on(){
+  System.out.println("DVD on!!");
+  }
+  public void stop(){
+  System.out.println("DVD stop");
+  }
+  public void play(){
+  System.out.println("DVD play!!");
+  }
+  public void eject(){
+  System.out.println("DVD eject!!");
+  }
+  public void off(){
+  System.out.println("DVD off");
+  }
+}

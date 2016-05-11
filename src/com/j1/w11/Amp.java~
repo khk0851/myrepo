@@ -1,0 +1,11 @@
+package com.j1.w11;
+public class Amp(){
+  public void on(){
+    System.out.println("amp on!!");
+  }
+  public void setDvd(dvd){
+    this.dvd=dvd;
+    System.out.println("set Dvd"+dvd);
+  }
+
+}
