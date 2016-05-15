@@ -1,0 +1,13 @@
+package com.j1.w11.smart;
+
+public class pc{
+  public void on(){
+  System.out.println("PC is on!");
+  }
+  public void ingang(){
+  System.out.println("¿Œ∞≠ mode!!");
+  }
+  public void off(){
+  System.out.println("pc off!");
+  }
+}
