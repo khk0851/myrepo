@@ -1,0 +1,9 @@
+public class Tea{
+  void prepateRecipe(){
+    boilWater();
+    steepTeaBag();
+    pourInCup();
+    addLemon();
+  }
+  
+}
