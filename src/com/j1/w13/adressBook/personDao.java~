@@ -1,0 +1,10 @@
+package com.j1.w13.adressBook;
+
+import java.util.List;
+
+public interface personDao {
+   public List<Person> getAllPersons();
+   public Person getPerson(int num);
+   public void update(Person p);
+   public void delete(Person p);
+}
